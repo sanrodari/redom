@@ -36,7 +36,7 @@ hello.rb
     require 'redom'
     
     class HelloConnection
-      inlcude Redom::Connection
+      include Redom::Connection
       
       def on_open
         alert "Hello World!"
